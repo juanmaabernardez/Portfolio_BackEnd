@@ -1,19 +1,15 @@
 package com.portfolio.juan.Service;
 
-
 import com.portfolio.juan.Entity.Persona;
-import com.portfolio.juan.Repository.IPersonaRepository;
 import com.portfolio.juan.Interface.IPersonaService;
+import com.portfolio.juan.Repository.IPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
 @Service
 public class ImpPersonaService implements IPersonaService{
-    
-    @Autowired 
-    public IPersonaRepository ipersonaRepository;
+    @Autowired IPersonaRepository ipersonaRepository;
     
     @Override
     public List<Persona> getPersona() {
