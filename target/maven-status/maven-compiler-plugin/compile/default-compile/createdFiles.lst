@@ -3,6 +3,7 @@ com\portfolio\juan\Entity\Educacion.class
 com\portfolio\juan\Security\Dto\JwtDto.class
 com\portfolio\juan\Dto\dtoEducacion.class
 com\portfolio\juan\Security\Entity\UsuarioPrincipal.class
+com\portfolio\juan\Security\MainSecurity$1.class
 com\portfolio\juan\Service\SExperiencia.class
 com\portfolio\juan\Service\SEducacion.class
 com\portfolio\juan\JuanApplication$1.class
