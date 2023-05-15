@@ -30,6 +30,7 @@ public class PersonaController {
         return new ResponseEntity(list, HttpStatus.OK);
     }
     
+    
     @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id")int id){
         if(!personaService.existsById(id)){
