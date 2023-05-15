@@ -32,7 +32,7 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String descripcion, String img) {
+    public Persona(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
